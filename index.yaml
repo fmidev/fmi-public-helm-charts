@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  fmi-routes:
+  - apiVersion: v2
+    created: "2023-03-31T13:36:47.303940346Z"
+    description: Helm chart for defining multiple routes
+    digest: a233a0ab8c12f1f45484db86a0300ec8cf3d710b9eeb02dc5fd44e5569e3106f
+    home: https://github.com/fmidev/fmi-public-helm-charts
+    keywords:
+    - fmi
+    - route
+    maintainers:
+    - email: admin@weatherproof.fi
+      name: Finnish Meteorological Institute
+      url: https://github.com/fmidev
+    name: fmi-routes
+    type: application
+    urls:
+    - https://github.com/fmidev/fmi-public-helm-charts/releases/download/fmi-routes-0.0.1/fmi-routes-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-03-31T13:36:47.303946046Z"
