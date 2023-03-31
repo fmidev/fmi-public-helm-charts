@@ -6,7 +6,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: {{ $name }}
-  namespace: {{ template "application.namespace" $ }}
+  namespace: {{ .Release.Namespace }}
   labels:
     type: {{ $route.type }}
 spec:
