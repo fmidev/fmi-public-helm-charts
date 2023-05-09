@@ -9,6 +9,10 @@ metadata:
   namespace: {{ $.Release.Namespace }}
   labels:
     type: {{ $route.type }}
+  {{- if $route.annotations }}
+  annotations:
+  {{ toYaml $route.annotations | indent 4 }}
+  {{- end }}
 spec:
   host: {{ $route.host }}
   port:
