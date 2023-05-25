@@ -1,11 +1,11 @@
 apiVersion: v2
-name: fmi-routes
-description: Helm chart for defining multiple routes
+name: fmi-nodeport
+description: Helm chart for defining api nodeport
 type: application
-version: 0.0.6
+version: 0.0.1
 keywords:
   - fmi
-  - route
+  - nodeport
 home: https://github.com/fmidev/fmi-public-helm-charts
 maintainers:
   - name: Finnish Meteorological Institute
